@@ -1,0 +1,15 @@
+<header>
+    <img src="img/logoj.png" alt="Logo con una letra J">
+    <nav>
+        <ul>
+            {{#each headers}}
+            <li>{{option}}</li>
+            {{/each}}
+        </ul>
+    </nav>
+    <section>
+        {{#each socialMedia}}
+        <img src="{{imgUrl}}" alt="{{alt}}">
+        {{/each}}
+    </section>
+</header>

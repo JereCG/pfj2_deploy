@@ -1,0 +1,28 @@
+@primary-background-color: #f8f3f3;
+@primary-text-color:black;
+
+@secondary-background-color: #000;
+@secondary-text-color: white;
+
+@import url(header.less);
+@import url(hero.less);
+@import url(content.less);
+@import url(footer.less);
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    background-color: @secondary-background-color;
+    display: flex;
+}
